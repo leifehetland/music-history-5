@@ -1,0 +1,19 @@
+{
+	"songs": [
+	  {
+	  	"title": "Idioteque",
+	  	"artist": "Radiohead",
+	  	"album": "Kid A"
+	  },
+	  {
+	  	"title": "Hoppipolla",
+	  	"artist": "Sigur Ros",
+	  	"album": "Takk..."
+	  },
+	  {
+	  	"title": "Runner Ups",
+	  	"artist": "Kurt Vile",
+	  	"album": "Smoke Ring for My Halo"
+	  }
+	]
+}

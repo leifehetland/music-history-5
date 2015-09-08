@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <header>
+  <link rel="stylesheet" href="./css/main.css">
+   
+  </header>
+  <body>
+   <nav>
+      <ul class="nav arial">
+        <li><a href="#">View Music</a><b> |</b></li>
+        <li><a href="#">Add Music</a><b> |</b></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <div class="flex-form">
+        <fieldset class="bluebox">
+        <!-- <form action="#" method="POST"> -->
+          <div>Song Length:</div>
+              <label for="song-length"></label>
+              <input type="range" name="temperature-range" min="1" max="10" step="0.5" value="5"/>
+          
+          <div>Artist:</div>
+            <input name="artist" list="artist_name"/>
+            <datalist id="artist_name">
+              <option value="Radiohead">
+              <option value="Sigur Ros">
+              <option value="Led Zeppelin">
+              <option value="Nobuo Uematsu">
+              <option value="Joe Hisaishi">
+            </datalist>
+          
+          <div>Album:</div>
+            <input name="album" list="album_name"/>
+            <datalist id="album_name">
+              <option value="Kid A">
+              <option value="()">
+              <option value="II">
+              <option value="Final Fantasy VI Original Sound Version">
+              <option value="Laputa: Castle in the Sky">
+            </datalist>
+          
+          <div> Genres: </div>
+            <input type="checkbox" name="Rock" value="Rock"> Rock
+            <input type="checkbox" name="Instrumental" value="Instrumental"> Instrumental
+            <input type="checkbox" name="Rap" value="Rap"> Rap
+          <br>
+            <input type="checkbox" name="Soundtrack" value="Soundtrack"> Soundtrack
+            <input type="checkbox" name="electronic" value="electronic"> Electronic
+        </fieldset>
+        <fieldset class="orangebox">
+          <div class="flex-songs" id="listOfSongs"></div>
+          <button id="addSongs"> More Songs </button>
+        </fieldset>
+      </div>
+    </div>
+    <script data-main="./javascripts/entry" src="bower_components/requirejs/require.js"></script>
+  </body>
