@@ -21,8 +21,18 @@ populateSongs.populateSongs(function(songs){
   });
 
 
-	$(document).on("click", "#delete", function() {
-		$(this).parent().hide();
+	$(document).on("click", "a[id^='delete#']", function() {
+
+		console.log(this.id, "https://brilliant-fire-4629.firebaseio.com/songs/" + this.id.split("#")[1] + ".json");
+
+    $.ajax({
+      url: "https://brilliant-fire-4629.firebaseio.com/songs/" + this.id.split("#")[1] + ".json",
+      method: "DELETE",
+      contentType: "application/json"
+    }).done(function(song){
+      console.log("Successfully deleted songs");
+    });
+
   });
 });  
 

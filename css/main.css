@@ -1,3 +1,17 @@
+.orangebox {
+  background-color: black;
+  color: #3383F3;
+  border: 5px solid #3383F3;
+  text-align: left;
+  list-style: none;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10%;
+  padding: 2% 0 0 0; }
 
+.songnames {
+  color: red;
+  text-decoration: underline;
+  font-family: Russo One; }
 
 /*# sourceMappingURL=main.css.map */

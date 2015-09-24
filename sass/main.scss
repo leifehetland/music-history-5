@@ -1,45 +1,24 @@
 
 // .wrapper {
 //   margin-top: 100px; }
+  
+.orangebox {
+  background-color: black;
+  color: #3383F3;
+  border: 5px solid #3383F3;
+  text-align: left;
+  list-style: none;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10%;
+  padding: 2% 0 0 0;
+  }
 
-// .dropdown {
-//   background-color: black;
-//   color: #3383F3;
-//   border: 5px solid #3383F3;
-//   text-align: left;
-//   float: left;
-//   line-height: 30px;
-//   margin-right: 20px;
-//   padding: 28px 40px 162px 30px;
-//   border-radius: 10px; }
-
-// .orangebox {
-//   background-color: black;
-//   color: #3383F3;
-//   border: 5px solid #3383F3;
-//   text-align: left;
-//   list-style: none;
-//   border-radius: 10px;
-//   }
-
-// #addSongs {
-//   font-family: Russo One;
-//   background-color: black;
-//   color: #3383F3;
-//   border: 5px solid #3383F3;
-//   border-radius: 10px;
-//   font-size: inherit;
-// }
-
-// #addSongs:hover {
-//   color: red;
-// }
-
-// .songnames {
-//   color: red;
-//   text-decoration: underline;
-//   font-family: Russo One;
-// }
+.songnames {
+  color: red;
+  text-decoration: underline;
+  font-family: Russo One;
+}
 
 // .pleaseWork {
 //   background-color: #160930;
@@ -50,8 +29,14 @@
 //   display: inline-block;
 //   text-align: center;
 //   list-style: none;
-//   margin: 1px 1px 0 5px;
-//   padding: 5px;
+//   margin: 0 50% 0 50%;
 //   border-radius: 5px;
 //   border: 5px solid #3383F3;
+//   background-color: black;
+//   color: #3383F3;
+//    }
+
+// nav {
+//   list-style: none;
+//   text-align: center;
 // }

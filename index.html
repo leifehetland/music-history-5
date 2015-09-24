@@ -14,28 +14,30 @@
       <li><a href="song-form.html">Add Music</a></li>
       <li><a href="#">Profile</a></li>
     </nav>
+    
+    <div class="fixDropdown">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Artist
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" id="artistDropdown" aria-labelledby="dropdownMenu1">
+        </ul>
+      </div>
 
-    <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        Artist
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" id="artistDropdown" aria-labelledby="dropdownMenu1">
-      </ul>
-    </div>
-
-    <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        Album
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" id="albumDropdown" aria-labelledby="dropdownMenu1">
-      </ul>
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Album
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" id="albumDropdown" aria-labelledby="dropdownMenu1">
+        </ul>
+      </div>
     </div>
     
-        <fieldset class="orangebox">
-          <div id="listOfSongs"></div>
-        </fieldset>
+      <fieldset class="orangebox">
+        <div id="listOfSongs"></div>
+      </fieldset>
 
     </div>
     <script>
